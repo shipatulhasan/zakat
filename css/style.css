@@ -4,6 +4,7 @@
 }
 body{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 
 }
 /* Genaral */
@@ -36,13 +37,14 @@ body{
     color: whitesmoke;
     font-size: 20px;
     line-height: 1.5;
+    padding: 20px 0;
 }
 .btn{
-    margin: 35px 0px;
+    margin: 20px 0px;
 }
 .btn a {
     padding: 14px 30px;
-    background: crimson;
+    background:linear-gradient(45deg,rgb(247, 142, 163),crimson);
     color: #fff;
     border-radius: 30px;
     text-decoration: none;
