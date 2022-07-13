@@ -26,7 +26,6 @@ section{
 .col-1{
     flex-basis: 50%;
     max-width: 50%;
-
     z-index: 1;
 }
 .col-2{
@@ -238,7 +237,7 @@ footer p{
     }
     .hero .container{
         min-height: 500px;
-        padding: 80px 0;
+        padding: 80px 20px;
     }
   
     .col-1{
