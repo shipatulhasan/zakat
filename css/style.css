@@ -275,19 +275,19 @@ footer p{
     /* .headline .col-1{
         flex-basis: 50%;
     } */
-   .blog .row{
-    justify-content: center;
-   }
    .btn a,.card a{
     font-size: 13px;
    }
     .blog .col-3 {
-        flex-basis: 80%;
-        max-width: 80%;
+        flex-basis: 48%;
+        max-width: 48%;
 
     }
     .card{
         margin: 20px 0;
+    }
+    .card-content {
+        padding: 15px;
     }
     /* .service .col-2 {
         margin: 10px 5px;
