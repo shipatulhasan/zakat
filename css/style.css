@@ -1,11 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-
 }
 /* Genaral */
 section{
@@ -14,8 +13,8 @@ section{
 .container{
     width: 1200px;
     max-width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
-    /* padding:80px 20px; */
 }
 .row{
     display: flex;
@@ -67,6 +66,7 @@ section{
 }
 img{
     width: 100%;
+    max-width: 100%;
 }
 /* Hero Section */
 section.hero{
@@ -101,14 +101,6 @@ section.hero{
     height: 100%;
     background-image: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%);
 }
-
-/* paragraph section */
-/* .row .paragraph-content{
-    width:500px;
-} */
-/* .paragraph-content p{
-    text-align: justify;
-} */
 .video-img img{
     border-radius: 10px;
 }
@@ -157,6 +149,7 @@ section.service{
 }
 .box-icon{
     flex-basis: 20%;
+    max-width: 20%;
 }
 .box-icon img{
     width: 60%;
@@ -164,6 +157,7 @@ section.service{
 }
 .box-content{
     flex-basis: 80%;
+    max-width: 80%;
 }
 
 /* Box elements design */
@@ -184,7 +178,8 @@ section.service{
 
 /* Gallery image */
 .gallery img{
-    width: 360px;
+    width: 100%;
+    max-width: 100%;
     height: 387px;
     object-fit: cover;
     border-radius: 10px;
@@ -234,3 +229,58 @@ footer p{
     letter-spacing: 1.4px;
 }
 
+/* Resposive Layout */
+
+@media(max-width:992px){
+    /* .container{
+        width: 900px;
+        max-width: 100%;
+        
+    } */
+    section{
+        padding: 50px 0 20px;
+    }
+    .hero .container {
+        min-height: 500px;
+    }
+    .col-1{
+        flex-basis: 70%;
+        max-width: 70%;
+    }
+    .service .col-2 {
+        flex-basis: 48%;
+        max-width: 48%;
+        background-color: #FEF4F5;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 5px 5px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .heading {
+        font-size: 35px;
+    }
+    .description {
+        padding: 10px 0;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #707070;
+        text-align: justify;
+    }
+   
+    .blog .col-3 {
+        flex-basis: 48%;
+        max-width: 48%;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    /* .service .col-2 {
+        margin: 10px 5px;
+    } */
+    /* .col-2{
+        flex-basis: 80%;
+        max-width: 80%;
+    } */
+}
