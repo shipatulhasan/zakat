@@ -133,8 +133,8 @@ section.service{
     justify-content: space-evenly;
 }
 .service .col-2{
-    flex-basis: 40%;
-    max-width: 40%;
+    flex-basis: 45%;
+    max-width: 45%;
     background-color: #FEF4F5;
     padding: 30px;
     border-radius: 10px;
